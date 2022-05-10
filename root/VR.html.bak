@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<head>
+        <style type="text/css">
+            body {
+                background-image: url('C:/Users/hp/Desktop/大学/第二学期/web/Final Project/设计/34.jpg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        </style>
+</head>
+<body>
+<head>
+<style type="text/css">   
+#LOGO{     
+  position:absolute;  
+  left:19px;
+  top:18px;
+  }
+ #phone{     
+  position:absolute;  
+  left:0px;
+  top:80px;
+  }
+  #title{     
+  position:absolute;  
+  left:50px;
+  top:130px;
+  }
+  #airpod{     
+  position:absolute;  
+  left:1040px;
+  top:80px;
+  }
+  #computer{     
+  position:absolute;  
+  left:130px;
+  top:70px;
+  }
+  #ps{     
+  position:absolute;  
+  left:1100px;
+  top:80px;
+  }
+</style>
+</head>
+<body>
+<a href="ps.html"><img src='LOGO.jpg' width="65" height="48" id="LOGO" /> </a>
+</body>
+
+<div class="topnav">
+  <a href="" >反馈</a>
+  <a href="camera.html" >back</a>
+  <a href="" style="float:right">反馈</a>
+  <a href="login.html" style="float:right">登录</a>
+ </div>
+ <a href="https://www.creote.com/?gclid=Cj0KCQjwsdiTBhD5ARIsAIpW8CLO05V9OF5wCK9J8Fx0PEjsIfrwenXqC5gCeN2htuHuhq-NEyryulMaAnNfEALw_wcB"><font size=7 color='black' id='computer'>Virtual reality</font><a>
+<font size=4 color='white' id='title'>虚拟现实( VR ) 是一种模拟体验，可以与现实世界相<br><br>似或完全不同。虚拟现实的应用包括娱乐（尤其是电<br><br>子游戏）、教育（例如医疗或军事训练）和商业（例<br><br>如虚拟会议）。其他不同类型的 VR 风格技术包括增<br><br>强现实和混合现实，有时称为扩展现实或 XR。目前，<br><br>标准虚拟现实系统使用虚拟现实耳机或多投影环境来<br><br>生成逼真的图像、声音和其他感觉，以模拟用户在虚<br><br>拟环境中的实际存在。使用虚拟现实设备的人能够环<br><br>顾人造世界，在其中四处走动，并与虚拟特征或物品<br><br>进行交互。这种效果通常由头戴式显示器和眼前的小<br><br>屏幕组成的 VR 耳机产生，但也可以通过专门设计的<br><br>具有多个大屏幕的房间来产生。虚拟现实通常包含听觉<br><br>和视频反馈，但也可能允许其他类型的感官和力反馈通<br><br>过触觉技术。<br><br></font>
+
+ 
+ </body>
+</html>
+
+

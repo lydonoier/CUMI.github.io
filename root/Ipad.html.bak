@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<head>
+        <style type="text/css">
+            body {
+                background-image: url('C:/Users/hp/Desktop/大学/第二学期/web/Final Project/设计/33.png');
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        </style>
+</head>
+<body>
+<head>
+<style type="text/css">   
+#LOGO{     
+  position:absolute;  
+  left:19px;
+  top:18px;
+  }
+ #phone{     
+  position:absolute;  
+  left:0px;
+  top:80px;
+  }
+  #title{     
+  position:absolute;  
+  left:40px;
+  top:200px;
+  }
+  #airpod{     
+  position:absolute;  
+  left:1040px;
+  top:80px;
+  }
+  #computer{     
+  position:absolute;  
+  left:990px;
+  top:200px;
+  }
+  #ps{     
+  position:absolute;  
+  left:650px;
+  top:70px;
+  }
+</style>
+</head>
+<body>
+<a href="new.html"><img src='LOGO.jpg' width="65" height="48" id="LOGO" /> </a>
+</body>
+
+<div class="topnav">
+  <a href="" >反馈</a>
+  <a href="computer.html" >back</a>
+  <a href="" style="float:right">反馈</a>
+  <a href="login.html" style="float:right">登录</a>
+ </div>
+<font size=5 color='#750075' id='title'>有史以来最强大的 MacBook Pro 就在这里。使<br><br>用速度极快的 M1 Pro 或 M1 Max 芯片——第<br><br>一款专为专业人士设计的 Apple 芯片——您可以<br><br>获得突破性的性能和惊人的电池续航时间。再加上<br><br>令人惊叹的 Liquid Retina XDR 显示屏、Mac 笔<br><br>记本电脑中最好的摄像头和音频，以及您需要的所<br><br>有端口。<br><br></font>
+ <a href="https://rog.asus.com/" id='ps'><font color='#930000' size= 30>点此了解详情</font></a>
+<font size=5 color='#750075' id='computer'>M1 Pro 将 M1 架构的卓越性能提升到专业<br><br>用户的全新水平。使用多达 10 个 CPU 内核、<br><br>多达 16 个 GPU 内核、一个 16 核神经引擎<br><br>以及支持 H.264、HEVC 和 ProRes 编解码器<br><br>的专用编码和解码媒体引擎，即使是最雄心勃<br><br>勃的项目也能轻松处理。<br><br></font>
+ 
+ </body>
+</html>
+
+

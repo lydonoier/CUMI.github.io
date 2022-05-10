@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<head>
+        <style type="text/css">
+            body {
+                background-image: url('C:/Users/hp/Desktop/大学/第二学期/web/Final Project/设计/30.jpg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        </style>
+</head>
+<body>
+<head>
+<style type="text/css">   
+#LOGO{     
+  position:absolute;  
+  left:19px;
+  top:18px;
+  }
+ #phone{     
+  position:absolute;  
+  left:0px;
+  top:80px;
+  }
+  #title{     
+  position:absolute;  
+  left:30px;
+  top:70px;
+  }
+  #airpod{     
+  position:absolute;  
+  left:1040px;
+  top:80px;
+  }
+  #computer{     
+  position:absolute;  
+  left:1230px;
+  top:50px;
+  }
+  #ps{     
+  position:absolute;  
+  left:520px;
+  top:80px;
+  }
+</style>
+</head>
+<body>
+<a href="new.html"><img src='LOGO.jpg' width="65" height="48" id="LOGO" /> </a>
+</body>
+
+<div class="topnav">
+  <a href="" >反馈</a>
+  <a href="computer.html" >back</a>
+  <a href="" style="float:right">反馈</a>
+  <a href="login.html" style="float:right">登录</a>
+ </div>
+<font size=4 color='white' id='title'>2006年，ROG涉足笔记本电脑领域，首款旗舰<br><br>产品ROG G1/G2一经推出就终结了笔记本电脑<br><br>无法畅玩3A游戏大作的历史。2008年，推出搭<br><br>载可媲美台式机显卡的ROG G70。从此，资深游<br><br>戏玩家和笔记本电脑市场已经逐渐习惯ROG及少<br><br>数几个其它品牌在每年的“神仙打架”。<br><br>接下来，具备3D环绕音效的G71、从概念到成熟<br><br>变革的G53/G73、融入隐形战机和豪华超跑设计<br><br>原素的G74，融入NVIDIA 3D VISION革命视觉技<br><br>术的G55/G75、迷你“小钢炮”G46以及在设计<br><br>风格上再次突破，一改红黑经典游戏本造型，使<br><br>用全新点绛红元素，并在性能上立于性能颠覆<br><br>的GFX 72……ROG电竞笔记本在持续与上游芯片<br><br>厂商保持合作，不断地推出适销对路、具备新元素<br><br>的机型以满足玩家需求。<br><br></font>
+ <a href="https://rog.asus.com/" id='ps'><font size= 30>点此了解详情</font></a>
+
+ </body>
+</html>
+
+

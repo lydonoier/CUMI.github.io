@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>My wife page</title>
+ </head>
+ <body>
+ <div align="center"><img src="wife.jpg" alt="My wife">
+ <a href="A.html">上一页</a>
+ </body>
+</html>
